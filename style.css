@@ -12,10 +12,62 @@ nav{
     display: flex;
     align-items: center;
     padding: 0 12px;
+    justify-content: center;
 
 }
 
 nav ul{
     list-style-type: none;
 
+}
+
+.gameContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.container{
+    display:grid;
+
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    
+}
+
+.box{
+    border: 1px solid black;
+    font-size: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(217, 180, 253);
+}
+
+.gameInfo{
+    padding: 0 34px;
+}
+
+.imagebox{
+    display: none;
+}
+
+.br-0{
+    border-right: 0; 
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bd-0{
+    border-bottom: 0;
 }
