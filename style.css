@@ -85,3 +85,14 @@ nav ul{
     cursor: pointer;
     font-size: 15px;
 }
+.copyrights{
+    padding: 10px;
+    display:flex;
+    justify-content:right;
+}
+
+.developers{
+    padding: 10px;
+    display:flex;
+    justify-content:right;
+}
