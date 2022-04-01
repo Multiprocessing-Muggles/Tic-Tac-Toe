@@ -90,9 +90,33 @@ nav ul{
     display:flex;
     justify-content:right;
 }
+.gameInfo div{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding: 1em;
+    }
 
 .developers{
     padding: 10px;
     display:flex;
     justify-content:right;
+}
+
+@media screen and (max-width: 800px) {
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .gameInfo h1{
+        font-size: 1.4rem;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: repeat(3, 24vw);
+        grid-template-columns: repeat(3, 24vw);
+    }
+    
 }
